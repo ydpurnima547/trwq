@@ -1,0 +1,139 @@
+<!--  <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wedding
+    </title>
+    <link rel="icon" type="image/x-icon" href="./img/f6.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+       <style>
+.navbar{
+  background-color:#FBF5DF;
+ box-shadow:0px 2px 5px #E34234;
+  height: 38px;
+}  
+.navbar {
+   position: fixed!important;
+}
+
+
+
+</style>-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Wedding
+    </title>
+    <link rel="icon" type="image/x-icon" href="./img/f6.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <style> 
+
+    body{
+        margin: 0;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .gallery{
+        margin: 0 0.65rem;
+    }
+    .gallery-item{
+        height: auto;
+        margin: 0.5rem;
+    }
+.gallery-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media  (min-width:640px)
+{
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(500,300px);
+        grid-auto-flow: row dense;
+    }
+    .gallery-item{
+        margin: 0.7rem;
+    }
+    .gallery-item:first-child{
+        grid-row: span 1;
+    }
+    .gallery-item:nth-child(2){
+        grid-column: 2/3;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    .image-grid{
+      display:flex;
+      width:90%;
+      margin:  0 auto;
+      flex-wrap: wrap;
+    }
+.single-img{
+  display: block;
+  flex-basis:100%;
+}   
+@media only screen and (min-width:640px) {
+  .single-img{
+    flex-basis: 50%;
+  }
+}
+@media only screen  and (min-width:960px){
+  .single-img{
+    flex-basis:33.333%;
+
+  }
+  
+}
+@media only screen  and (min-width:1280px){
+  .single-img{
+    flex-basis:25%;
+    
+  }
+  
+}
+    </style>
+ 
+</head>
+<body>
+  <div class="image-grid">
+    <div class="single-img"><img src="./img/ses.jpeg" ></div>
+    <div class="single-img"><img src="./img/pn.jpg"></div>
+    <div class="single-img"><img src="./img/dd.jpg"></div>
+    <div class="single-img"><img src="./img/ss.jpg"></div>
+    <div class="single-img"><img src="./img/ds.jpg"></div>
+  <div class="single-img"><img src="./img/du.jpg"></div>
+  <div class="single-img"><img src="./img/ff.jpg"></div>
+  <div class="single-img"><img src="./img/hk.jpg"></div>
+  <div class="single-img"><img src="./img/ddd.jpg"></div>
+  <div class="single-img"><img src="./img/as.jpg"></div>
+  <div class="single-img"><img src="./img/ddc.png"></div>
+  <div class="single-img"><img src="./img/ii.jpg"></div>
+  </div>
+  
+</body>
+</html>
+  
+  
+
+  
